@@ -25,7 +25,9 @@ public class variavel {
         System.out.println("Seu nome completo é " + nome + ", e seu estado civil é " + EstadoCivil + ", sua idade é " + idade + ", seu CPF " + cpf + " e o seu peso é " + peso + ".. Se as informações estiverem corretas digite True para Estão Corretas e false para Estão Erradas ");
         boolean CertoOuErrado = scanner.nextBoolean();
 
-        System.out.println("Obrigado por se cadastrar, se as informações estiverem erradas, voce sera redirecionado para corrigilas."); // na verdade nao vai, mas oque importa é a experiencia..
         scanner.close();
+
+        System.out.println("Obrigado por se cadastrar, se as informações estiverem erradas, voce sera redirecionado para corrigilas."); // na verdade nao vai, mas oque importa é a experiencia..
+
     }
 }
